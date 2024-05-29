@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    margin-top: 180px;
+    background-color: #f1edf1;
+    background-color: green;
+    min-height: 250px;
+    margin-bottom: 0;
+}
+.footerDesc{
+    width: 50%;
+    font-size: 13px;
+    margin:auto;
+    padding: 50px;
+    margin-top: 40px;
+}
+@media (max-width: 932px){
+    .footerInner{
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto; 
+        background-color: red;
+    }
+    .footerDesc{
+       width: 70%;
+       text-align: center; 
+    }
+}

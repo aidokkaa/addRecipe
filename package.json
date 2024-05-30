@@ -48,6 +48,9 @@
   "devDependencies": {
     "json-server": "^1.0.0-alpha.23",
     "json-server-auth": "^2.1.0"
-    
+
+  },
+  "engines": {
+    "node": "20.14.0"
   }
 }
